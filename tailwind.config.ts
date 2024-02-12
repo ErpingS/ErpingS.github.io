@@ -16,5 +16,11 @@ const config: Config = {
     },
   },
   plugins: [],
+  
+  // For tailwind styling setup
+  corePlugins: {
+    preflight: false,
+  },
+  important: '#__next',
 };
 export default config;
